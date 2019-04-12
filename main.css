@@ -1,0 +1,190 @@
+﻿* {
+    margin: 0;
+}
+
+a {
+    color: white;
+    margin: 20px;
+    margin-bottom: 0;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+    a:hover {
+        background: #ADAED5;
+    }
+
+body {
+    background-color: whitesmoke;
+    margin: 0px;
+    height: 100%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #494ca2;
+}
+
+div {
+    
+    width: 70%;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 3%;
+    text-decoration: underline;
+}
+
+hr {
+    margin: 5% 10%;
+}
+
+
+img {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+p {
+    font-size: 1.25rem;
+    font-family: 'Bitter', serif;
+}
+
+/************************************CLASSES**************************************************/
+
+.badges {
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+
+.copyright {
+    color: whitesmoke;
+    margin-top: 100px;
+}
+
+.div-heading {
+    font-size: 3rem;
+    padding: 0 5% 5% 5%;
+}
+
+.icons {
+    color: #494ca2;
+}
+
+.mainhead {
+    padding-top: 5%;
+    margin-bottom: 3%;
+    font-size: 6em;
+    font-weight: 100;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 0 auto 0 auto;
+    padding-bottom: 100px;
+    text-align: left;
+    line-height: 200%;
+}
+
+.skill-row img {
+    float: left;
+    margin-right: 36px;
+    margin-top: 0;
+    width: 25%;
+    height: 25%;
+}
+
+.social {
+    font-size: 2em;
+    margin: 100px 50px 50px 50px;
+    background-color: whitesmoke;
+    border-radius: 1em;
+    padding: 1%;
+    color: #494ca2;
+}
+
+.scoial:hover {
+    background: #ADAED5; 
+}
+
+
+
+/************************************ID'S**************************************************/
+
+#me {
+    border-radius: 1em;
+    margin-left: 8.25rem;
+    margin-bottom: 6.25rem;
+}
+
+/* Certifications */
+
+#certifications {
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+#skills .mainhead {
+    margin-bottom: 3%;
+}
+
+/* Footer/Contact */
+
+#footer {
+    width: 100%;
+    background-image: linear-gradient(whitesmoke, #494ca2);
+    color: #c6cbef;
+    margin-bottom: 0;
+}
+
+#contact {
+    padding: 1%;
+    margin: 50px auto 100px auto;
+    font-size: 4em;
+    font-weight: 100;
+    background-color: #494ca2;
+    border-radius: 1em;
+    display: block;
+    width: 6em;
+    color: whitesmoke;
+}
+
+    #contact:hover {
+        background: #5B5DAB;
+    }
+
+/* Skills */
+
+#skills {
+    text-align: center;
+    padding: 5% 5%;
+    margin: 0 auto;
+}
+
+/* Welcome */
+
+#welcome {
+    background-image: linear-gradient(#494ca2, whitesmoke);
+    height: 33%;
+    width: 100%;
+    padding-bottom: 100px;
+    color: #333571;
+}
+
+/*************Media Query**********/
+@media (max-width: 1200) {
+
+    body {
+        text-align: center;
+    }
+
+    .badges {
+        margin: auto;
+    }
+
+    #me {
+        margin: auto;
+    }
+
+}

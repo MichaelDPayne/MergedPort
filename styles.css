@@ -1,0 +1,170 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+button {
+    margin: 3%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+
+/*****************CLASSES*****************/
+
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    margin: 3%;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.section-heading {
+    font-size: 2.5rem;
+    padding-bottom: 5%;
+}
+
+/* About Classes */
+
+.about-heading {
+    padding: 2% 0 1% 0;
+}
+
+/* Navbar Classes */
+
+.navbar a {
+    color: mediumpurple;
+}
+
+    .navbar a:hover {
+        color: plum;
+    }
+
+.navbar-toggler {
+    color: mediumpurple;
+    background-color: purple;
+}
+
+/* Features Classes */
+
+.featicon {
+    color: mediumpurple;
+    position: static;
+    z-index: 2;
+}
+
+    .featicon:hover {
+        color: mediumorchid;
+    }
+
+.feature-heading {
+    padding: 6% 0 3% 0;
+}
+
+/* Games Section Classes */
+
+.games-image {
+    margin-bottom: 3%;
+    width: 10%;
+}
+
+.games-text {
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding: 5% 30% 5%;
+}
+
+/* Tech Section Classes */
+
+.tech-logo {
+    width: 10%;
+    height: 5%;
+    margin: 3%;
+    padding: 2%;
+}
+
+/* Title Section Classes */
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/*********************ID*****************/
+
+/* Navbar Id's */
+
+#brand {
+    font-family: 'Russo One', sans-serif;
+    font-size: 2rem;
+}
+
+/* Call to Action Section Id's */
+
+#cta {
+    background-color: powderblue;
+}
+
+/* Feature Id's */
+
+#features {
+    margin: 5% 5%;
+    line-height: 1.5;
+}
+
+/* Footer Id's */
+
+#footer {
+    background-color: powderblue;
+}
+
+    #footer a {
+        padding: 10px 20px;
+    }
+
+    #footer p {
+        margin: 0;
+    }
+
+/* Games Id's*/
+
+#games {
+    background-color: #87c0cd;
+}
+
+/* Tech Id's */
+
+#tech {
+    background-color: #87c0cd;
+}
+
+/* Title Id's */
+
+#title {
+    background-color: powderblue;
+    text-align: left;
+}
+
+#title-img {
+    margin: 5%;
+    width: 100%;
+}
+
+/* About Section Id's*/
+
+/*********************Media Query Breakpoints*****************/
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+}
