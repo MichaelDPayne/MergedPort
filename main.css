@@ -3,7 +3,7 @@
 }
 
 a {
-    color: white;
+    color: #494ca2;
     margin: 20px;
     margin-bottom: 0;
     font-size: 3rem;
@@ -11,7 +11,7 @@ a {
 }
 
     a:hover {
-        background: #ADAED5;
+        color: darkmagenta;
     }
 
 body {
@@ -96,12 +96,7 @@ p {
 }
 
 .social {
-    font-size: 2em;
-    margin: 100px 50px 50px 50px;
-    background-color: whitesmoke;
-    border-radius: 1em;
-    padding: 1%;
-    color: #494ca2;
+    color: blue;
 }
 
 .scoial:hover {
@@ -139,14 +134,13 @@ p {
 }
 
 #contact {
-    padding: 1%;
-    margin: 50px auto 100px auto;
+    padding: .5%;
+    margin: 50px 200px 100px 200px;
     font-size: 4em;
     font-weight: 100;
     background-color: #494ca2;
     border-radius: 1em;
     display: block;
-    width: 6em;
     color: whitesmoke;
 }
 
