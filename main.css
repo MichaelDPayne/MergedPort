@@ -50,6 +50,12 @@ p {
     font-family: 'Bitter', serif;
 }
 
+td p {
+    height: 50%;
+    line-height: normal;
+
+}
+
 /************************************CLASSES**************************************************/
 
 .badges {
