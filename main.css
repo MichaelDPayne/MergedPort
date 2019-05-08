@@ -133,6 +133,10 @@ p {
     margin-bottom: 0;
 }
 
+#proj-intro {
+    text-decoration: none;
+}
+
 #contact {
     padding: .5%;
     margin: 50px 200px 100px 200px;
