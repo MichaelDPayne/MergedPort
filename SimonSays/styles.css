@@ -1,3 +1,20 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-home {
+    color: #FEF2BF;
+    border: hidden;
+    display: block;
+    margin: 30px auto;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.btn-home:hover {
+    color: black;
+}
+
 body {
   text-align: center;
   background-color: #011F3F;
