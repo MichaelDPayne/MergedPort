@@ -9,12 +9,16 @@ var started = false;
 var level = 0;
 
 // Detect when a keyboard key has been pressed, when that happens for the first time, call nextSequence().
-$(document).keypress(function () {
+function start() {
     if (!started) {
         nextSequence();
         started = true;
     }
-});
+};
+
+
+$(document).keypress(start);
+$(document).click(start);
 
 $(".btn").click(function () {
 

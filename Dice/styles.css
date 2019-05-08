@@ -1,3 +1,13 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-home {
+    color: white;
+    border: hidden;
+}
+
 .container {
   width: 70%;
   margin: auto;
